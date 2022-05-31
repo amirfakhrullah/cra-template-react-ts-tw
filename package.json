@@ -4,6 +4,8 @@
   "description": "",
   "main": "template.json",
   "scripts": {
+    "postinstall": "husky install",
+    "husky:prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write \"./**/*.{js,ts,tsx,css,md,json}\" --config ./.prettierrc"
@@ -20,6 +22,15 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
     "prettier": "^2.6.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": ["lint-staged"]
+    }
+  },
+  "lint-staged": {
+    "./**/*.{js,ts,tsx,css,md,json}": ["prettier --write", "eslint --fix"]
   }
 }
