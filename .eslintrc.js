@@ -16,4 +16,9 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {},
+  settings: {
+    react: {
+      version: "^7.30.0",
+    },
+  },
 };
