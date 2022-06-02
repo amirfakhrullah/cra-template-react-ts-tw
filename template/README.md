@@ -2,10 +2,9 @@
 
 ## Installations
 
-PS: make sure to initialised git before setting up
-
 ```cmd
 npm install
+npm run husky:prepare
 ```
 
 If you get issues with prettier or eslint, simply run:

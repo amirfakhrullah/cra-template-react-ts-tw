@@ -1,8 +1,6 @@
 {
   "package": {
     "scripts": {
-      "preinstall": "git init",
-      "postinstall": "husky install && npx husky add .husky/pre-commit \"npx lint-staged\"",
       "husky:prepare": "husky install && npx husky add .husky/pre-commit \"npx lint-staged\"",
       "start": "react-scripts start",
       "build": "react-scripts build",

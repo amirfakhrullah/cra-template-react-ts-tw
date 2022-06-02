@@ -1,5 +1,9 @@
 # CRA-TEMPLATE-REACT-TS-TW
 
+## About
+
+create-react-app typescript template (React 18) with neccesary packages setup: tailwindcss, react-router, react-query and husky
+
 ## Using the template
 
 ```cmd
