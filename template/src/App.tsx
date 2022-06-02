@@ -1,21 +1,19 @@
-import React from "react";
-import logo from "./logo.svg";
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+    <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-gray-800">
+      <header className="border border-gray-600 rounded-lg p-10">
+        <h1 className="text-center text-2xl font-bold text-gray-300 mb-5">
+          CRA-TEMPLATE-REACT-TS-TW
+        </h1>
+        <p className="text-gray-400">
+          Edit{" "}
+          <code className="bg-blue-900 p-1 mx-2 rounded-md">'src/App.tsx'</code>{" "}
+          and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <div className="bg-gray-600 hover:bg-gray-700 py-2 px-3 text-center mt-5 rounded-md text-gray-300 font-bold">
+            Learn React
+          </div>
         </a>
       </header>
     </div>
