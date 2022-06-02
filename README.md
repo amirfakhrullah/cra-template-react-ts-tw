@@ -3,7 +3,7 @@
 ## Using the template
 
 ```cmd
-npx create-react-app my-app --template REACT-TS-TW
+npx create-react-app my-app --template react-ts-tw
 ```
 
 ## Features included
