@@ -29,6 +29,7 @@ npx create-react-app my-app --template react-ts-tw
 
 ```cmd
 npm install
+npm run husky:prepare
 ```
 
 If you get issues with prettier or eslint, simply run:

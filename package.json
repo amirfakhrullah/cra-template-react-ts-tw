@@ -4,7 +4,6 @@
   "description": "",
   "main": "template.json",
   "scripts": {
-    "postinstall": "husky install && npx husky add .husky/pre-commit \"npx lint-staged\"",
     "husky:prepare": "husky install && npx husky add .husky/pre-commit \"npx lint-staged\"",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
