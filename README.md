@@ -25,6 +25,17 @@ npx create-react-app my-app --template react-ts-tw
 
 ## For Contributing
 
+- Currently there's no guide for contributing, if you like to contribute to this package, please let me know.
+
+### Cloning the Repo
+
+1) Fork this repo to your github
+2) Git clone to your local machine:
+
+```cmd
+git clone ...
+```
+
 ### Installation
 
 ```cmd

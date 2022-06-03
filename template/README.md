@@ -1,9 +1,22 @@
 # CRA-TEMPLATE-REACT-TS-TW
 
-## Installations
+## Setup
+
+If there's no `node_modules` setup yet, run:
 
 ```cmd
 npm install
+```
+
+Make sure to initialise git, if you haven't already, run:
+
+```cmd
+git init
+```
+
+Run:
+
+```cmd
 npm run husky:prepare
 ```
 
